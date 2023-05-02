@@ -1,0 +1,1 @@
+const btn=document.querySelector(".movetop-btn");function scrollFunction(){window.scrollY>3*window.innerWidth?btn.style.display="block":btn.style.display="none"}btn.addEventListener("click",()=>{window.scrollTo({top:0,left:0,behavior:"smooth"})}),window.onscroll=function(){scrollFunction()};

@@ -1,0 +1,1 @@
+function setupBurgerMenu(){var e=document.getElementById("mySidenav"),t=document.getElementById("openBtn"),n=document.getElementById("closeBtn");t.onclick=function(){e.classList.add("active")},n.onclick=function(){e.classList.remove("active")}}function closeNav2(){document.getElementById("mySidenav").classList.remove("active")}
